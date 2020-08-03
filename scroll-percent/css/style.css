@@ -1,0 +1,49 @@
+
+.site-main{
+	background-color: #eee;
+	background-color: #333;
+}
+.site-main{
+	height: 4000px;
+}
+.scroll-wrap{
+	position: relative;
+	width:100%;
+	max-width: 640px;
+	padding:20px;
+	border-radius: 40px;
+	margin:auto;
+	margin-bottom:20px;
+	box-shadow:  20px 20px 40px #e1e1e1, 
+			 -20px -20px 40px #f7f7f7;
+	box-shadow:  20px 20px 40px #111, 
+             -20px -20px 40px #555;
+}
+.scroll-percent{
+	width:0;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #004fff;
+	background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+	background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+	/* box-shadow:  0 2px 14px #92FE9D; */
+}
+.scroll-text{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 30px;
+	opacity: 0.7;
+}
+/* ---------- */
+/* Responsive */
+/* ---------- */
+
+@media only screen and (max-width: 480px) {
+	.scroll-wrap{
+		max-width: 300px;
+	}
+	
+}
